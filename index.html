@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap_05</title>
+  <!-- inter google font link in live google  -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <!-- font awsome link in css -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!-- bootstrap link in css -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- main css link in web site  -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- responsive css link in the web page -->
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+
+  <!-- navBar start  -->
+  <nav class="navbar navbar-expand-lg" id="nav_bg">
+    <div class="container">
+      <a class="navbar-brand img" href="#">
+        <img src="./img/Logo.svg" alt="">
+      </a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button> -->
+      <div class="d-lg-none">
+        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="d-lg-none">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">হোম</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">হাদিসে যান</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">হাদিস গ্রন্থসমূহ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#">আমাদের প্রজেক্ট</a>
+                </li>
+              </ul>
+              <button type="button" class="nav_button">সাপোর্ট করুন
+                <img src="./img/donaton.svg" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse d-lg-block" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">হোম</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">হাদিসে যান</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">হাদিস গ্রন্থসমূহ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">আমাদের প্রজেক্ট</a>
+          </li>
+        </ul>
+        <button type="button" class="nav_button">সাপোর্ট করুন
+          <img src="./img/donaton.svg" alt="">
+        </button>
+      </div>
+  </nav>
+  <!-- navBar end  -->
+
+  <!-- banner part start -->
+  <section id="banner">
+    <div class="container">
+      <div class="heading_banner">
+        <img src="./img/bismall.svg" class="col-4" alt="">
+        <p>রাসুল (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন, 'তোমাদের মধ্যে সে বেক্তিই সর্বাপেক্ষা উত্তম, যে
+          চরিত্রের দিক দিয়ে উত্তম' ( বুখারি, মুসলিম, মিশকাত হা/ ৫০৭৫ ) ।</p>
+      </div>
+      <div class="srach_hadding">
+        <h2>আপনার পছন্দের হাদিস খুঁজুন</h2>
+        <div class="input_are d-flex justify-content-between flex-column flex-lg-row">
+          <div class="input_parent d-flex align-items-center justify-content-around mb-2 mb-lg-0">
+            <input type="text" id="input" name="input" placeholder="সার্চ হাদিস...">
+            <img src="./img/input_icon.svg" class="filter d-lg-none HI_filter" alt="filter">
+          </div>
+          <button class="d-flex align-items-center justify-content-center rounded">
+            <img src="./img/input_icon.svg" class="filter d-none d-lg-block" alt="filter">
+            সার্চ করুন
+            <img src="./img/Search icon.svg" alt="Search">
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner part end -->
+  <!-- about part start  -->
+  <section id="about_section">
+    <div class="container">
+      <div class="about_heading">
+        <h2>হাদিসের বইসমূহ</h2>
+        <p>হাদিসের কিতাবগুলো মুসলিমদের জন্য হেদায়েত এবং অনুপ্রেরণার একটি গুরুত্বপূর্ণ উৎস। এই কিতাবগুলো মহানবী
+          মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়া সালাম)-এর সীরাত(জীবনী) ও দিক-নির্দেশনার প্রতি অন্তর্দৃষ্টি প্রদান করে।</p>
+      </div>
+      <div class="card_wrapper row mx-auto ">
+        <div class="card_1 col-lg-4 mb-4 mb-lg-0">
+          <div class="card_main_text">
+            <h3>সহিহ বুখারি</h3>
+            <p>হাদিসের রেঞ্জ ৭৫৬৩</p>
+          </div>
+        </div>
+        <div class="card_1 col-lg-4 mb-4 mb-lg-0">
+          <div class="card_main_text">
+            <h3>সহিহ মুসলিম</h3>
+            <p>হাদিসের রেঞ্জ ৭০৫৩</p>
+          </div>
+        </div>
+        <div class="card_1 col-lg-4 main_card_child">
+          <div class="card_main_text">
+            <h3>সুনানে আবু দাউদ</h3>
+            <p>হাদিসের রেঞ্জ ৫২৭৪</p>
+          </div>
+        </div>
+      </div>
+      <div class="abouta_btn d-flex align-items-center justify-content-center">
+        <button>
+          <img src="./img/book.svg" alt="book_img">
+          <span>সকল হাদিস গ্রন্থসমূহ</span>
+          <img src="./img/Arrow.svg" alt="arwo_img">
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- about part end -->
+  <!-- main_contanet part start -->
+  <section id="main_contanet">
+    <div class="container">
+      <div class="info mx-auto d-flex align-items-center">
+        <h3>
+          রাসুল (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন, 'কঠোর ও রুক্ষ স্বভাবের মানুষ জান্নাতে প্রবেশ করবে না'
+          ( আবু দাউদ, মিশকাত হা/ ৫০৮০, সনদ সহিহ )।
+        </h3>
+      </div>
+    </div>
+  </section>
+  <!-- main_contanet end -->
+  <!-- all hadis start section -->
+  <section id="all_hadis">
+    <div class="container">
+      <div class="hadis_header">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center Text_itmes">
+            <h3>বিষয়ভিত্তিক হাদিস</h3>
+            <p>বিষয়ভিত্তিক হাদীস হচ্ছে হাদীসের এমন সংকলন যা বর্ণনাকারী বা সনদ দ্বারা নয় বরং বিষয় অনুসারে সজ্জিত। এর
+              মাধ্যমে ইসলামের নির্দিষ্ট বিষয়গুলোর উপর সহজে জ্ঞানার্জন সম্ভব হয়। এই সঙ্কলন আলেমগণ ও শিক্ষকদের জন্যও
+              সহায়ক হতে পারে যারা নির্দিষ্ট বিষয়ে শিক্ষা প্রদান করতে চাইছেন।</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_container">
+        <div class="main_wepper_incard">
+          <div class="row align-items-center mx-auto">
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+              <div class="card_child d-flex align-items-center justify-content-center flex-column">
+                <h3>আকিদা</h3>
+                <p>হাদিসের রেঞ্জঃ ৭</p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+              <div class="card_child d-flex align-items-center justify-content-center flex-column">
+                <h3>ঈমান</h3>
+                <p>হাদিসের রেঞ্জঃ ৫</p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
+              <div class="card_child d-flex align-items-center justify-content-center flex-column">
+                <h3>সালাত</h3>
+                <p>হাদিসের রেঞ্জঃ ৩৮</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card_button">
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-center justify-content-center">
+            <button>
+              <img src="./img/book_in.svg" alt="book_img">
+              <span>সকল ক্যাটাগরি দেখুন</span>
+              <img src="./img/Arrow.svg" alt="arwo_img">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- all hadis end section -->
+
+  <!-- coll to section in web page start  -->
+  <section id="coll_to_section">
+    <div class="container">
+      <div class="coll_to_main">
+        <div class="coll_contant">
+
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center col_header">
+              <h3>ডাউনলোড করুন <br />আল হাদিস মোবাইল অ্যাপ</h3>
+              <p>আল হাদিস অ্যাপের মাধ্যমে, হাদিস পড়া, বুকমার্ক, অনলাইন সিংকিং সহ আরও অনেক কিছু সহজেই পারবেন। এখনই
+                আমাদের অ্যাপটি ডাউনলোড করুন</p>
+            </div>
+          </div>
+          <div
+            class="coll_to_actions d-flex align-items-center justify-content-center action_button  flex-column flex-sm-row">
+            <div class="coll_button_child_one mb-3 mb-sm-0 mb-lg-0">
+              <button class="main_button_in_icon">
+                <img src="./img/play.png" alt="">
+                <div class="button_text text-start">
+                  <span>Get in on</span>
+                  <p>Google Play store</p>
+                </div>
+              </button>
+            </div>
+            <div class="coll_button_child_one">
+              <button class="main_button_in_icon">
+                <img src="./img/apple.png" alt="">
+                <div class="button_text text-start">
+                  <span>Download on the</span>
+                  <p>App store</p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- coll to section in web page end  -->
+
+  <!-- footer section start  -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer_contand">
+        <div class="row">
+          <div class="col-lg-5">
+            <img src="./img/footer-lolgo.png" alt="footer_logo">
+            <div class="footer_main_text">
+              <h3>হাদিস পড়ুন, শিখুন এবং জানুন</h3>
+              <p>আমাদের লক্ষ্য ও উদ্দেশ্য হল সবচেয়ে উত্তম উৎস থেকে বিশুদ্ধ হাদীস সকলের
+                জন্য উন্মুক্ত করে দেয়া। আমরা এই ওয়েবসাইটটি সর্বাধিক গুরুত্বের সাথে তৈরি
+                করেছি যাতে যে কেউ সহজেই হাদিস শিখতে ও শিখাতে পারে। আমরা আপনাদের
+                একান্ত সহযোগিতা চাই এই ওয়েবসাইটটি সহ আমাদের পুরো প্রজেক্টের পরিসর
+                বাড়িয়ে এগিয়ে যেতে। আমাদের একটি মোবাইল অ্যাপ রয়েছে যাতে আপনি
+                যেকোনো স্থানে যেকোন সময় স্বাচ্ছন্দ্যে হাদীস পড়তে পারেন।</p>
+            </div>
+
+          </div>
+          <div class="col-lg-7">
+            <div class="d-flex justify-content-between flex-column flex-md-row flex-lg-row">
+              <div class="">
+                <div class="footer_menu_parent d-flex align-items-center">
+                  <ul>
+                    <h4>নেভিগেট</h4>
+                    <li><a href="#">হাদিস গ্রন্থসমূহ</a></li>
+                    <li><a href="#">বিষয়ভিত্তিক হাদিস</a></li>
+                    <li><a href="#">প্রাইভেসি পলেসি</a></li>
+                    <li><a href="#">সাপোর্ট করুন</a></li>
+                  </ul>
+                  <ul class="footer_list_second_menu">
+                    <li><a href="#">আমাদের প্রোজেক্ট</a></li>
+                    <li><a href="#">তাহকিফ</a></li>
+                    <li><a href="#">লেখক</a></li>
+                    <li><a href="#">ফেইসবুক পেইজ</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-md-flex">
+                <div class="footer_menu_parent">
+                  <ul class="second_footer_ul_menu">
+                    <h4>আমাদের প্রজেক্ট সমূহ</h4>
+                    <li><a href="#">আল হাদিস</a></li>
+                    <li><a href="#">কুরাআন মাজিদ</a></li>
+                    <li><a href="#">দোয়া ও রুকিয়াহ</a></li>
+                    <li><a href="#">আইআরডি ফাউনডেসন</a></li>
+                  </ul>
+                </div>
+                <div class="footer_menu_parent last_footer_mobile" id="web_site_name">
+                  <h4 class="last_h4">জনপ্রিয় সাইটসমূহ</h4>
+                  <li><a href="#">Quran.com</a></li>
+                  <li><a href="#">Sunnah.com</a></li>
+                  <li><a href="#">Islamhouse.com</a></li>
+                  <li><a href="#">Response-Anti-Islam</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+
+
+  <script src="./js/all.min.js"></script>
+  <!-- link js file in web page bootstrap  -->
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

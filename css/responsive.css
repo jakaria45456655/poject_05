@@ -1,0 +1,635 @@
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  .heading_banner p {
+    padding: 0px 254px;
+  }
+  .main_card_child {
+    margin-top: 25px;
+  }
+  .info {
+    min-height: 274px;
+  }
+  .card_button {
+    text-align: center;
+    padding: 0 349px;
+  }
+  .footer_main_text p {
+    padding-right: 0;
+  }
+  .footer_menu_parent ul li a {
+    font-size: 13px;
+  }
+  .second_footer_ul_menu {
+    margin-right: 15px;
+  }
+  .footer_list_second_menu {
+    margin-top: 33px;
+    margin-left: -11px;
+  }
+}
+@media (min-width: 992.99px) and (max-width: 1199.99px) {
+  .heading_banner p {
+    padding: 0px 160px;
+    margin-top: 96px;
+    margin-bottom: 94px;
+  }
+  .about_heading p {
+    line-height: 27px;
+    padding: 0px 108px;
+    margin-bottom: 46px;
+  }
+  .card_1 {
+    margin-top: 24px;
+  }
+  .info {
+    min-height: 228px;
+  }
+  .info h3 {
+    padding: 0px 38px;
+  }
+  .Text_itmes P {
+    text-align: center;
+  }
+  .card_button {
+    padding: 0 254px;
+  }
+  .col_header p {
+    padding: 0px 3px;
+  }
+  .footer_menu_parent h4 {
+    font-size: 13px;
+  }
+  #web_site_name li a {
+    font-size: 13px;
+  }
+  .footer_menu_parent ul li a {
+    font-size: 10px;
+  }
+  .footer_main_text p {
+    font-size: 13px;
+  }
+  .second_footer_ul_menu {
+    margin-right: 15px;
+  }
+  .coll_contant {
+    padding-top: 99px;
+    padding-bottom: 93px;
+  }
+}
+@media (min-width: 768.99px) and (max-width: 991.99px) {
+  .heading_banner p {
+    padding: 0px;
+  }
+  .input_parent input {
+    width: 0px;
+  }
+  .input_are {
+    width: 360px;
+  }
+  .abouta_btn {
+    padding: 0px;
+  }
+  .about_heading p {
+    padding: 0px;
+  }
+  .info h3 {
+    padding: 0px;
+  }
+  .card_button {
+    padding: 0px;
+  }
+  .nav-link {
+    color: black;
+  }
+  .nav-link::before {
+    display: none;
+  }
+  .heading_banner {
+    text-align: center;
+    margin-top: -50px;
+  }
+  .col-4 {
+    width: 63.333%;
+  }
+  .heading_banner p {
+    font-size: 13px;
+    margin-top: 41px;
+    margin-bottom: 38px;
+  }
+  .srach_hadding h2 {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+  .input_parent input {
+    width: 349px;
+  }
+  .input_are {
+    height: 70px;
+  }
+  .input_parent input {
+    padding-top: 25px;
+  }
+  .HI_filter {
+    padding-right: 0px;
+  }
+  .HI_filter {
+    padding-right: 18px;
+  }
+  #about_section {
+    padding-top: 48px;
+    padding-bottom: 0px;
+  }
+  .about_heading h2 {
+    font-size: 23px;
+  }
+  .about_heading p {
+    font-size: 13px;
+  }
+  .abouta_btn {
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+    margin-top: -73px;
+  }
+  #main_contanet {
+    padding-top: 92px;
+    padding-bottom: -15px;
+  }
+  .info h3 {
+    font-size: 13px;
+    line-height: 22.5px;
+  }
+  .info {
+    min-height: 127px;
+  }
+  .info h3 {
+    padding: 32px;
+  }
+  #main_contanet {
+    padding-bottom: 56px;
+  }
+  #all_hadis {
+    padding-top: 14px;
+  }
+  .Text_itmes h3 {
+    font-size: 22px;
+  }
+  .Text_itmes P {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .card_button button {
+    margin-top: 52px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .coll_contant {
+    padding-top: 55px;
+    padding-bottom: 54px;
+  }
+  .col_header h3 {
+    font-size: 23px;
+  }
+  .col_header p {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0px;
+  }
+  .coll_to_actions {
+    column-gap: 30px;
+    margin-top: 21px;
+  }
+  .footer_main_text h3 {
+    font-size: 19px;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 14px;
+  }
+  .footer_main_text p {
+    font-size: 14px;
+    font-style: normal;
+    padding-right: 7px;
+  }
+  .footer_menu_parent {
+    margin-top: 23px;
+  }
+  .abouta_btn {
+    margin-top: -24px;
+  }
+  .last_footer_mobile {
+    margin-left: 47px;
+    margin-bottom: 20px;
+  }
+  .input_are {
+    height: 70px;
+    width: 508px;
+  }
+  .input_parent input {
+    width: 374px;
+  }
+  .srach_hadding h2 {
+    font-size: 23px;
+    margin-bottom: 13px;
+  }
+  .heading_banner p {
+    font-size: 17px;
+  }
+  .about_heading h2 {
+    font-size: 30px;
+  }
+  .about_heading p {
+    font-size: 17px;
+  }
+  .Text_itmes h3 {
+    font-size: 29px;
+  }
+  .Text_itmes P {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .col_header h3 {
+    font-size: 26px;
+  }
+  .Text_itmes P {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .coll_to_actions {
+    column-gap: 11px;
+    margin-top: 22px;
+  }
+  .coll_button_child_one button {
+    width: 263px;
+  }
+  #banner {
+    padding-top: 232px;
+  }
+  .heading_banner p {
+    font-size: 19px;
+  }
+  .heading_banner p {
+    font-size: 19px;
+    margin-top: 49px;
+    margin-bottom: 38px;
+  }
+  .input_are {
+    height: 70px;
+    width: 711px;
+  }
+  .input_parent input {
+    width: 580px;
+  }
+  .about_heading h2 {
+    font-size: 35px;
+  }
+  .about_heading p {
+    font-size: 21px;
+  }
+  /* .card_wrapper {
+    justify-content: center;
+  } */
+  .info {
+    min-height: 170px;
+  }
+  .info h3 {
+    font-size: 18px;
+    line-height: 22.5px;
+  }
+  .footer_menu_parent ul li a {
+    font-size: 13px;
+  }
+  .footer_menu_parent h4 {
+    font-size: 14px;
+  }
+}
+@media (min-width: 576.99px) and (max-width: 767.99px) {
+  .heading_banner p {
+    padding: 0px;
+  }
+  .input_parent input {
+    width: 0px;
+  }
+  .input_are {
+    width: 360px;
+  }
+  .abouta_btn {
+    padding: 0px;
+  }
+  .about_heading p {
+    padding: 0px;
+  }
+  .info h3 {
+    padding: 0px;
+  }
+  .card_button {
+    padding: 0px;
+  }
+  .nav-link {
+    color: black;
+  }
+  .nav-link::before {
+    display: none;
+  }
+  .heading_banner {
+    text-align: center;
+    margin-top: -50px;
+  }
+  .col-4 {
+    width: 63.333%;
+  }
+  .heading_banner p {
+    font-size: 13px;
+    margin-top: 41px;
+    margin-bottom: 38px;
+  }
+  .srach_hadding h2 {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+  .input_parent input {
+    width: 349px;
+  }
+  .input_are {
+    height: 70px;
+  }
+  .input_parent input {
+    padding-top: 25px;
+  }
+  .HI_filter {
+    padding-right: 0px;
+  }
+  .HI_filter {
+    padding-right: 18px;
+  }
+  #about_section {
+    padding-top: 48px;
+    padding-bottom: 0px;
+  }
+  .about_heading h2 {
+    font-size: 23px;
+  }
+  .about_heading p {
+    font-size: 13px;
+  }
+  .abouta_btn {
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+    margin-top: -73px;
+  }
+  #main_contanet {
+    padding-top: 92px;
+    padding-bottom: -15px;
+  }
+  .info h3 {
+    font-size: 13px;
+    line-height: 22.5px;
+  }
+  .info {
+    min-height: 127px;
+  }
+  .info h3 {
+    padding: 32px;
+  }
+  #main_contanet {
+    padding-bottom: 56px;
+  }
+  #all_hadis {
+    padding-top: 14px;
+  }
+  .Text_itmes h3 {
+    font-size: 22px;
+  }
+  .Text_itmes P {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .card_button button {
+    margin-top: 52px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .coll_contant {
+    padding-top: 55px;
+    padding-bottom: 54px;
+  }
+  .col_header h3 {
+    font-size: 23px;
+  }
+  .col_header p {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0px;
+  }
+  .coll_to_actions {
+    column-gap: 30px;
+    margin-top: 21px;
+  }
+  .footer_main_text h3 {
+    font-size: 19px;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 14px;
+  }
+  .footer_main_text p {
+    font-size: 14px;
+    font-style: normal;
+    padding-right: 7px;
+  }
+  .footer_menu_parent {
+    margin-top: 23px;
+  }
+  .abouta_btn {
+    margin-top: -24px;
+  }
+  .last_footer_mobile {
+    margin-left: 47px;
+    margin-bottom: 20px;
+  }
+  .input_are {
+    height: 70px;
+    width: 508px;
+  }
+  .input_parent input {
+    width: 374px;
+  }
+  .srach_hadding h2 {
+    font-size: 23px;
+    margin-bottom: 13px;
+  }
+  .heading_banner p {
+    font-size: 17px;
+  }
+  .about_heading h2 {
+    font-size: 30px;
+  }
+  .about_heading p {
+    font-size: 17px;
+  }
+  .Text_itmes h3 {
+    font-size: 29px;
+  }
+  .Text_itmes P {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .col_header h3 {
+    font-size: 26px;
+  }
+  .Text_itmes P {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .coll_to_actions {
+    column-gap: 11px;
+    margin-top: 22px;
+  }
+  .coll_button_child_one button {
+    width: 263px;
+  }
+}
+
+@media (max-width: 575.99px) {
+  .heading_banner p {
+    padding: 0px;
+  }
+  .input_parent input {
+    width: 0px;
+  }
+  .input_are {
+    width: 360px;
+  }
+  .abouta_btn {
+    padding: 0px;
+  }
+  .about_heading p {
+    padding: 0px;
+  }
+  .info h3 {
+    padding: 0px;
+  }
+  .card_button {
+    padding: 0px;
+  }
+  .nav-link {
+    color: black;
+  }
+  .nav-link::before {
+    display: none;
+  }
+  .heading_banner {
+    text-align: center;
+    margin-top: -50px;
+  }
+  .col-4 {
+    width: 63.333%;
+  }
+  .heading_banner p {
+    font-size: 13px;
+    margin-top: 41px;
+    margin-bottom: 38px;
+  }
+  .srach_hadding h2 {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+  .input_parent input {
+    width: 349px;
+  }
+  .input_are {
+    height: 70px;
+  }
+  .input_parent input {
+    padding-top: 25px;
+  }
+  .HI_filter {
+    padding-right: 0px;
+  }
+  .HI_filter {
+    padding-right: 18px;
+  }
+  #about_section {
+    padding-top: 48px;
+    padding-bottom: 0px;
+  }
+  .about_heading h2 {
+    font-size: 23px;
+  }
+  .about_heading p {
+    font-size: 13px;
+  }
+  .abouta_btn {
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+    margin-top: -73px;
+  }
+  #main_contanet {
+    padding-top: 92px;
+    padding-bottom: -15px;
+  }
+  .info h3 {
+    font-size: 13px;
+    line-height: 22.5px;
+  }
+  .info {
+    min-height: 127px;
+  }
+  .info h3 {
+    padding: 32px;
+  }
+  #main_contanet {
+    padding-bottom: 56px;
+  }
+  #all_hadis {
+    padding-top: 14px;
+  }
+  .Text_itmes h3 {
+    font-size: 22px;
+  }
+  .Text_itmes P {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .card_button button {
+    margin-top: 52px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .coll_contant {
+    padding-top: 55px;
+    padding-bottom: 54px;
+  }
+  .col_header h3 {
+    font-size: 23px;
+  }
+  .col_header p {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0px;
+  }
+  .coll_to_actions {
+    column-gap: 30px;
+    margin-top: 21px;
+  }
+  .footer_main_text h3 {
+    font-size: 19px;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 14px;
+  }
+  .footer_main_text p {
+    font-size: 14px;
+    font-style: normal;
+    padding-right: 7px;
+  }
+  .footer_menu_parent {
+    margin-top: 23px;
+  }
+  .abouta_btn {
+    margin-top: -24px;
+  }
+  .last_footer_mobile {
+    margin-left: 47px;
+    margin-bottom: 20px;
+  }
+}
